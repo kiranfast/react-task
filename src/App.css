@@ -1,0 +1,56 @@
+
+.pricing{
+  background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+   height: 900px;
+}
+
+.fa-check{
+  font-weight: bold;
+}
+.card li{
+  position: relative;
+  margin-top: 25px;
+}
+
+.text-muted{
+     opacity: 0.5;
+}
+
+.card-price{
+  font-size: 50px;
+}
+.card-price .period{
+  font-size: 15px;
+  font-weight:100px;
+}
+
+.card{
+  margin-top: 30px;
+  border-radius: 4%;
+}
+
+li{
+  list-style-type: none;
+}
+
+@media (min-width: 992px) 
+{
+  .pricing .card:hover{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+}
+.btn{
+  opacity: 0.5;
+}
+.btn:hover{
+  opacity: 10;
+}
+
+
+
+
+
+
